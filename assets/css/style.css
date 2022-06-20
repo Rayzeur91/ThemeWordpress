@@ -12,3 +12,28 @@
 body{
     background-color: red;
 }
+.wrapper-menu
+{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-around;
+    padding: 2% 5% 0% 5%;
+}
+.logo-menu
+{
+    background-color: burlywood;
+}
+.menu-menu{
+    background-color: brown;
+    display: flex;
+}
+.categorie-menu
+{
+    padding: 0% 2% 0% 2%;
+    white-space:nowrap;
+}
+.button-menu
+{
+    padding: 0% 2% 0% 2%;
+    white-space:nowrap;
+}

@@ -60,9 +60,6 @@ footer
   padding-bottom: 3%;
   font-family: 'Montserrat', sans-serif;
 }
-#div-footer
-{
-}
 #firstbar-footer
 {
  display: flex ;
