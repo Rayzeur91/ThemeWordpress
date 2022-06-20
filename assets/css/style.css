@@ -1,0 +1,14 @@
+
+#flex2{
+    width: 80%;
+    height: 50px;
+    background-color: aquamarine;
+}
+#flex3{
+    width: 20%;
+    height: 50px;
+    background-color: blueviolet;
+}
+body{
+    background-color: red;
+}
