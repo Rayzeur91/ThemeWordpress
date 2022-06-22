@@ -12,10 +12,11 @@
 body{
     background-color: red;
 }
+/* Css Menu */
 .wrapper-menu
 {
     display: flex;
-    background-color: bisque;
+    background-color: cornflowerblue;
     justify-content: space-around;
     padding: 2% 5% 0% 5%;
 }
@@ -36,4 +37,38 @@ body{
 {
     padding: 0% 2% 0% 2%;
     white-space:nowrap;
+}
+#button-1menu
+{
+    background:none!important;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+#button-2menu
+{
+    background:none!important;
+border: 1px solid #ffffff;
+  color: #ffffff;
+}
+/* Menu déroulant */ 
+.sub-menu
+{
+    display: none;
+    position:absolute;
+    background-color: cornflowerblue;
+    padding: 1%;
+}
+header .categorie-menu:hover 
+{
+    background-color: chartreuse;
+}
+header .categorie-menu:hover  .sub-menu
+{
+    display: block;
+}
+header li
+{
+    list-style-type: none;
+    background-color: darksalmon;
+    border-bottom: white 1px solid;
 }
