@@ -9,16 +9,13 @@
     height: 50px;
     background-color: blueviolet;
 }
-body{
-    background-color: red;
-}
 /* Css Menu */
 .wrapper-menu
 {
     display: flex;
     background-color: cornflowerblue;
     justify-content: space-around;
-    padding: 2% 5% 0% 5%;
+    padding: 1% 0% 0% 0%;
 }
 .logo-menu
 {
@@ -30,13 +27,13 @@ body{
 }
 .categorie-menu
 {
-    padding: 0% 2% 0% 2%;
     white-space:nowrap;
+    margin: 0% 1% 0% 1%;
 }
 .button-menu
 {
-    padding: 0% 2% 0% 2%;
     white-space:nowrap;
+    padding: 0% 1% 0% 1%;
 }
 #button-1menu
 {
@@ -55,8 +52,8 @@ border: 1px solid #ffffff;
 {
     display: none;
     position:absolute;
-    background-color: cornflowerblue;
     padding: 1%;
+    color: white;
 }
 header .categorie-menu:hover 
 {
@@ -66,9 +63,46 @@ header .categorie-menu:hover  .sub-menu
 {
     display: block;
 }
+
 header li
 {
     list-style-type: none;
-    background-color: darksalmon;
+    background-color: #2f7dc0;
     border-bottom: white 1px solid;
 }
+#lab
+{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin: 4px;
+    display: none;
+    background:linear-gradient(#FFF 0%,#FFF 20%,transparent 21%, transparent 40% , #FFF 41% , #FFF 60% , transparent 61% , transparent 80% , #FFF 81% , #fff 100%)
+}
+#ch
+{
+    display: none;
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color:  red!important;
+    }
+    .menu-menu
+    {
+        display: block;
+        position: absolute ;
+        right: 0;
+        left: 0;
+        transform:translate(-10000px,0);
+        transition: all 0.5s ease;
+        top: 5.5%;
+    }
+    #ch:checked+.menu-menu{
+           transform:translate(0px ,0); 
+        transition: all 0.5s ease;
+    }
+    #lab
+    {
+        display: block;
+    }
+  }

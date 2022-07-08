@@ -10,6 +10,8 @@
     <header>
         <div class="wrapper-menu">
             <div class="logo-menu"><img src="https://institutadios.com/wp-content/uploads/2021/11/Logo-entête.png" alt="Logo" class="img-logo"></div>
+            <label for="ch" id="lab"></label>
+            <input type="checkbox" id="ch"/>
             <div class="menu-menu">
                 <div class="categorie-menu"><p>La methode</p>
                     <ul class="sub-menu">

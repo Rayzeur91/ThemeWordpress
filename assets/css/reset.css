@@ -533,3 +533,14 @@ Needed for proper display in IE 10-.
 [hidden] {
   display: none !important;
 }
+/* 
+Raypatch  
+Fixe container wordpress 750 mobile
+*/
+
+@media only screen and (max-width: 1024px) {
+  .container
+  {
+    width: auto !important;
+  }
+}
