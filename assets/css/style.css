@@ -114,7 +114,7 @@ header li
     }
     .padding-chevron
     {
-        display: block;
+        display: inline !important;
         padding-left: 5%;
     }
   }
