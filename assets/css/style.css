@@ -13,17 +13,14 @@
 .wrapper-menu
 {
     display: flex;
-    background-color: cornflowerblue;
+    background-color: #003563;
     justify-content: space-around;
     padding: 1% 0% 0% 0%;
 }
-.logo-menu
-{
-    background-color: burlywood;
-}
 .menu-menu{
-    background-color: brown;
+    background-color: #003563;
     display: flex;
+    color: #FFFF;
 }
 .categorie-menu
 {
@@ -57,7 +54,7 @@ border: 1px solid #ffffff;
 }
 header .categorie-menu:hover 
 {
-    background-color: chartreuse;
+    background-color: #003563;
 }
 header .categorie-menu:hover  .sub-menu
 {
@@ -67,7 +64,7 @@ header .categorie-menu:hover  .sub-menu
 header li
 {
     list-style-type: none;
-    background-color: #2f7dc0;
+    background-color: #003563;;
     border-bottom: white 1px solid;
 }
 #lab
@@ -83,6 +80,12 @@ header li
 {
     display: none;
 }
+
+.padding-chevron
+{
+    display: none;
+}
+
 @media only screen and (max-width: 1024px) {
     body {
         background-color:  red!important;
@@ -104,5 +107,14 @@ header li
     #lab
     {
         display: block;
+    }
+    .categorie-menu:hover>.sub-menu{
+        display: block;
+        position: relative;
+    }
+    .padding-chevron
+    {
+        display: block;
+        padding-left: 5%;
     }
   }

@@ -6,7 +6,7 @@ function montheme_supports () {
 function montheme_register_assets () 
 {
     wp_register_style('bootstrap' , 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css');
-
+    
     wp_enqueue_style('bootstrap');
 }
 
